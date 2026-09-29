@@ -1,0 +1,25 @@
+name: core_infra
+description: "Pure infrastructure shared across every Jung Studio mini-app: Supabase bootstrap, environment config, shared error types, logging, and the AppModule contract. No domain logic."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^9.1.1
+  go_router: ^16.2.4
+  intl: ^0.20.2
+  shared_preferences: ^2.5.5
+  supabase_flutter: ^2.8.0
+  dio: ^5.9.0
+  url_launcher: ^6.3.2
+  webview_flutter: ^4.10.0
+  webview_flutter_web: ^0.2.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
